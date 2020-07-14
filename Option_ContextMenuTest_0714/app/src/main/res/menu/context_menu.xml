@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ctmEvil"
+        android:icon="@drawable/evilicon"
+        android:title="이블조" />
+    <item
+        android:id="@+id/ctmRa"
+        android:icon="@drawable/raicon"
+        android:title="라잔" />
+    <item
+        android:id="@+id/ctmAlba"
+        android:icon="@drawable/albaicon"
+        android:title="알바트리온" />
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_switch"
+        android:title="정보"
+        app:actionLayout="@layout/switch_item"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="이름 찾기"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/ctmRed"
+        android:title="빨강" />
+    <item
+        android:id="@+id/ctmGreen"
+        android:title="초록" />
+    <item
+        android:id="@+id/ctmBlue"
+        android:title="파랑" />
+</menu>

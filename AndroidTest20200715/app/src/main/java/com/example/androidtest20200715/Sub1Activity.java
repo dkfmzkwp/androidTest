@@ -53,10 +53,16 @@ public class Sub1Activity extends AppCompatActivity implements View.OnClickListe
         switch (item.getItemId()){
             case R.id.op2Activity1 : Intent intent = new Intent(this, MainActivity.class);
                 startActivity(intent);
+                finish();
                 break;
             case R.id.op2Activity2 : FragmentManager fragmentManager = getSupportFragmentManager();
                 List<Fragment> list = fragmentManager.getFragments();
                 fragmentManager.beginTransaction().remove(list.get(0)).commit();
+                break;
+            case R.id.op2Activity3 :
+                Intent intent2 = new Intent(this, Sub2Activity.class);
+                startActivity(intent2);
+                finish();
                 break;
             case R.id.op2Fragment1 : getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout2, fragmentSub1).commit();
             break;

@@ -123,7 +123,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             break;
             case R.id.opActivity2 : Intent intent2 = new Intent(this,Sub1Activity.class);
             startActivity(intent2);
+            finish();
                 break;
+            case R.id.opActivity3 : Intent intent = new Intent(this,Sub2Activity.class);
+            startActivity(intent);
+                finish();
             case R.id.opSlide:
                 if (btnFlag == true) {
                     slidePage.startAnimation(translate_right);

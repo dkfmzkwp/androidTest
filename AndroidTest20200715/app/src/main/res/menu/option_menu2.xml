@@ -13,6 +13,11 @@
         android:title="액티비티2"
         app:showAsAction="always" />
     <item
+        android:id="@+id/op2Activity3"
+        android:icon="@drawable/icon4"
+        android:title="액티비티3"
+        app:showAsAction="always" />
+    <item
         android:id="@+id/op2Fragment1"
         android:title="Fragment1" />
     <item

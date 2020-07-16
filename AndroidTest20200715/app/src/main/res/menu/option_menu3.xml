@@ -3,32 +3,18 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/opActivity1"
+        android:id="@+id/op3Activity1"
         android:icon="@drawable/icon1"
         android:title="액티비티1"
         app:showAsAction="always" />
     <item
-        android:id="@+id/opActivity2"
+        android:id="@+id/op3Activity2"
         android:icon="@drawable/icon2"
         android:title="액티비티2"
         app:showAsAction="always" />
     <item
-        android:id="@+id/opActivity3"
+        android:id="@+id/op3Activity3"
         android:icon="@drawable/icon4"
         android:title="액티비티3"
         app:showAsAction="always" />
-    <item
-        android:id="@+id/opSlide"
-        android:icon="@drawable/icon3"
-        android:title="슬라이드"
-        app:showAsAction="always" />
-    <item
-        android:id="@+id/opFragment1"
-        android:title="Fragment1" />
-    <item
-        android:id="@+id/opFragment2"
-        android:title="Fragment2" />
-    <item
-        android:id="@+id/opFragment3"
-        android:title="Fragment3" />
 </menu>

@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='MyDataBaseListView_20200722'

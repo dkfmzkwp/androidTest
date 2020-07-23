@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name='SimpleMP3Player_20200723'

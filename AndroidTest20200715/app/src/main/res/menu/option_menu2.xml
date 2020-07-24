@@ -18,6 +18,16 @@
         android:title="액티비티3"
         app:showAsAction="always" />
     <item
+        android:id="@+id/op2Activity4"
+        android:icon="@drawable/icon5"
+        android:title="그림판"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/op2Activity5"
+        android:icon="@drawable/icon6"
+        android:title="포토샵"
+        app:showAsAction="always" />
+    <item
         android:id="@+id/op2Fragment1"
         android:title="Fragment1" />
     <item

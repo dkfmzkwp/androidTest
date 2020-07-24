@@ -77,25 +77,6 @@ public class MainActivity extends AppCompatActivity {
 //        intent.putExtra("calulate",cal);
 
         //serializable 형식으로 데이터 전송
-        int number1 = Integer.parseInt(etNumber1.getText().toString());
-        int number2 = Integer.parseInt(etNumber2.getText().toString());
-
-        switch(rgCal.getCheckedRadioButtonId()){
-            case R.id.rdoAdd : cal = "덧셈";
-            break;
-            case R.id.rdoSub : cal = "뺄셈";
-            break;
-            case R.id.rdoMul : cal = "곱셈";
-            break;
-            case R.id.rdoDiv : cal = "나눗셈";
-            break;
-        }
-        Student student = new Student(number1, number2, cal);
-        ArrayList<Student> list = new ArrayList<Student>();
-        list.add(student);
-        intent.putExtra("list", list);
-
-        //parcelable 방법으로 데이터 전송
 //        int number1 = Integer.parseInt(etNumber1.getText().toString());
 //        int number2 = Integer.parseInt(etNumber2.getText().toString());
 //
@@ -109,10 +90,29 @@ public class MainActivity extends AppCompatActivity {
 //            case R.id.rdoDiv : cal = "나눗셈";
 //            break;
 //        }
-//        StuddentParce studdentParce = new StuddentParce(number1, number2,cal,0);
-//        ArrayList<StuddentParce> list = new ArrayList<StuddentParce>();
-//        list.add(studdentParce);
+//        Student student = new Student(number1, number2, cal);
+//        ArrayList<Student> list = new ArrayList<Student>();
+//        list.add(student);
 //        intent.putExtra("list", list);
+
+        //parcelable 방법으로 데이터 전송
+        int number1 = Integer.parseInt(etNumber1.getText().toString());
+        int number2 = Integer.parseInt(etNumber2.getText().toString());
+
+        switch(rgCal.getCheckedRadioButtonId()){
+            case R.id.rdoAdd : cal = "덧셈";
+            break;
+            case R.id.rdoSub : cal = "뺄셈";
+            break;
+            case R.id.rdoMul : cal = "곱셈";
+            break;
+            case R.id.rdoDiv : cal = "나눗셈";
+            break;
+        }
+        StuddentParce studdentParce = new StuddentParce(number1, number2,cal,0);
+        ArrayList<StuddentParce> list = new ArrayList<StuddentParce>();
+        list.add(studdentParce);
+        intent.putExtra("list", list);
 
         startActivityForResult(intent, REQUEST_SUB01); //REQUEST_SUB01 - subActivity에서 보냄 받음
     }

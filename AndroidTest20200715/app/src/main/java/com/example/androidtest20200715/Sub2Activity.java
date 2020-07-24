@@ -97,6 +97,16 @@ public class Sub2Activity extends AppCompatActivity {
                 List<Fragment> list = fragmentManager.getFragments();
                 fragmentManager.beginTransaction().remove(list.get(0)).commit();
                 break;
+            case R.id.op3Activity4 :
+                Intent intent3 = new Intent(this,Sub3Activity.class);
+                startActivity(intent3);
+                finish();
+                break;
+            case R.id.op3Activity5 :
+                Intent intent4 = new Intent(this,Sub4Activity.class);
+                startActivity(intent4);
+                finish();
+                break;
             default : break;
         }
         return super.onOptionsItemSelected(item);

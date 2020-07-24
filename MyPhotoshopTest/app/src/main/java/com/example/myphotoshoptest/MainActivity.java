@@ -2,6 +2,13 @@ package com.example.myphotoshoptest;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.ColorMatrix;
+import android.graphics.ColorMatrixColorFilter;
+import android.graphics.Paint;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -83,4 +90,5 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ibGrey = findViewById(R.id.ibGrey);
         layoutPicture = findViewById(R.id.layoutPicture);
     }
+
 }

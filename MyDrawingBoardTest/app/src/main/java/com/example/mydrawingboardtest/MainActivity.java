@@ -126,6 +126,7 @@ public class MainActivity extends AppCompatActivity {
                     Log.d("MyGraphicView","이동횟수="+list.size());
                     break;
             }
+
             return true;
         }
     }

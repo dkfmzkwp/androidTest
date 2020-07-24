@@ -64,6 +64,16 @@ public class Sub1Activity extends AppCompatActivity implements View.OnClickListe
                 startActivity(intent2);
                 finish();
                 break;
+            case R.id.op2Activity4 :
+                Intent intent3 = new Intent(this, Sub3Activity.class);
+                startActivity(intent3);
+                finish();
+                break;
+            case R.id.op2Activity5 :
+                Intent intent4 = new Intent(this, Sub4Activity.class);
+                startActivity(intent4);
+                finish();
+                break;
             case R.id.op2Fragment1 : getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout2, fragmentSub1).commit();
             break;
             case R.id.op2Fragment2 : getSupportFragmentManager().beginTransaction().replace(R.id.frameLayout2, fragmentSub2).commit();

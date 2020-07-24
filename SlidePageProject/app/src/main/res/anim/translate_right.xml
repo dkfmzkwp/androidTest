@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- fillAfter="true" 애니메이션이 끝나고 상태를 그대로 유지 -->
+    <!-- fillAfter="true" 애니메이션이 끝나고 상태를 그대로 유지 -->
 <set xmlns:android="http://schemas.android.com/apk/res/android"
-    android:fillAfter="true"
-    android:interpolator="@android:anim/accelerate_decelerate_interpolator">
+android:fillAfter="true"
+android:interpolator="@android:anim/accelerate_decelerate_interpolator">
 <translate android:fromXDelta="0%"
     android:toXDelta="100%"
     android:duration="800"

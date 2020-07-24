@@ -125,8 +125,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent2);
             finish();
                 break;
-            case R.id.opActivity3 : Intent intent = new Intent(this,Sub2Activity.class);
-            startActivity(intent);
+            case R.id.opActivity3 : Intent intent3 = new Intent(this,Sub2Activity.class);
+            startActivity(intent3);
+                finish();
+            case R.id.opActivity4 : Intent intent4 = new Intent(this,Sub3Activity.class);
+                startActivity(intent4);
+                finish();
+            case R.id.opActivity5 : Intent intent5 = new Intent(this,Sub4Activity.class);
+                startActivity(intent5);
                 finish();
             case R.id.opSlide:
                 if (btnFlag == true) {
